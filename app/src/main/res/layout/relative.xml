@@ -9,6 +9,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     >
+
     <EditText
         android:id="@+id/name"
         android:layout_width="match_parent"
@@ -26,6 +27,30 @@
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="25dp"
         android:text="@string/send" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="349dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="607dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </SearchView>
 
 
 </RelativeLayout>
