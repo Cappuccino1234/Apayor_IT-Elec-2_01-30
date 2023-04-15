@@ -70,7 +70,7 @@ public class NotificationsFragment extends Fragment {
                 textview.setText(currentBatteryHealth+" = Good");
             }
             if(deviceHealth == BatteryManager.BATTERY_HEALTH_OVERHEAT{
-               textview.setText(currentBatteryHealth+" = OverHeat");
+               textview.setText(currentBatteryHealth+" = OverHeat***");
             }
         }
     };
